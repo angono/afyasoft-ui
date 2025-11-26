@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Créer une Annonce - Songo Beafrika</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 min-h-screen">
+    <div class="container mx-auto px-4 py-8 max-w-3xl">
+        <!-- Header -->
+        <header class="mb-8">
+            <h1 class="text-3xl font-bold text-gray-800">Créer une Annonce</h1>
+            <p class="text-gray-600 mt-2">Faites connaître votre activité sur Songo Beafrika</p>
+        </header>
+
+        <!-- Main Form -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <!-- Type de Publicité Section -->
+            <section class="p-6 border-b">
+                <h2 class="text-xl font-semibold text-gray-800 mb-4">Type de Publicité</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                    <div class="border-2 border-gray-200 rounded-lg p-4 text-center cursor-pointer hover:border-blue-500 transition-colors">
+                        <i class="fas fa-video text-blue-500 text-2xl mb-2"></i>
+                        <p class="font-medium">Publicité Vidéo</p>
+                    </div>
+                    <div class="border-2 border-blue-500 rounded-lg p-4 text-center cursor-pointer bg-blue-50">
+                        <i class="fas fa-image text-blue-500 text-2xl mb-2"></i>
+                        <p class="font-medium">Annonce Visuelle</p>
+                    </div>
+                    <div class="border-2 border-gray-200 rounded-lg p-4 text-center cursor-pointer hover:border-blue-500 transition-colors">
+                        <i class="fas fa-volume-up text-blue-500 text-2xl mb-2"></i>
+                        <p class="font-medium">Spot Audio</p>
+                    </div>
+                    <div class="border-2 border-gray-200 rounded-lg p-4 text-center cursor-pointer hover:border-blue-500 transition-colors">
+                        <i class="fas fa-newspaper text-blue-500 text-2xl mb-2"></i>
+                        <p class="font-medium">Publi-reportage</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Informations de Base Section -->
+            <section class="p-6 border-b">
+                <h2 class="text-xl font-semibold text-gray-800 mb-4">Informations de Base</h2>
+                
+                <!-- Titre de l'annonce -->
+                <div class="mb-6">
+                    <label class="block text-gray-700 font-medium mb-2">
+                        Titre de l'annonce <span class="text-red-500">*</span>
+                    </label>
+                    <input type="text" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Ex: Restaurant Le Savana - Cuisine locale">
+                </div>
+                
+                <!-- Description -->
+                <div class="mb-6">
+                    <label class="block text-gray-700 font-medium mb-2">
+                        Description <span class="text-red-500">*</span>
+                    </label>
+                    <textarea class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 h-32" placeholder="Décrivez votre activité en détail..."></textarea>
+                </div>
+                
+                <!-- Catégorie et Localisation -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                    <div>
+                        <label class="block text-gray-700 font-medium mb-2">
+                            Catégorie <span class="text-red-500">*</span>
+                        </label>
+                        <select class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            <option value="" disabled selected>Sélectionnez une catégorie</option>
+                            <option value="restaurant">Restaurant</option>
+                            <option value="boutique">Boutique</option>
+                            <option value="service">Service</option>
+                            <option value="autre">Autre</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-gray-700 font-medium mb-2">
+                            Localisation <span class="text-red-500">*</span>
+                        </label>
+                        <input type="text" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Ex: Bangui, Centrafrique">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Média Section -->
+            <section class="p-6 border-b">
+                <h2 class="text-xl font-semibold text-gray-800 mb-4">Média</h2>
+                <div class="border-2 border-dashed border-gray-300 rounded-lg p-8 text-center cursor-pointer hover:border-blue-500 transition-colors">
+                    <i class="fas fa-cloud-upload-alt text-4xl text-gray-400 mb-4"></i>
+                    <p class="font-medium text-gray-700">Cliquez pour télécharger</p>
+                    <p class="text-gray-500 text-sm mt-2">Image JPG, PNG, GIF</p>
+                </div>
+            </section>
+
+            <!-- Informations de Contact Section -->
+            <section class="p-6">
+                <h2 class="text-xl font-semibold text-gray-800 mb-4">Informations de Contact</h2>
+                
+                <!-- Nom de l'entreprise -->
+                <div class="mb-6">
+                    <label class="block text-gray-700 font-medium mb-2">
+                        Nom de l'entreprise / Particulier <span class="text-red-500">*</span>
+                    </label>
+                    <input type="text" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Ex: Restaurant Le Savana">
+                </div>
+                
+                <!-- Téléphone -->
+                <div class="mb-6">
+                    <label class="block text-gray-700 font-medium mb-2">Téléphone</label>
+                    <input type="tel" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="+236 XX XX XX XX">
+                </div>
+                
+                <!-- Email -->
+                <div class="mb-6">
+                    <label class="block text-gray-700 font-medium mb-2">Email</label>
+                    <input type="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="contact@example.com">
+                </div>
+                
+                <!-- Site Web -->
+                <div class="mb-6">
+                    <label class="block text-gray-700 font-medium mb-2">Site Web (optionnel)</label>
+                    <input type="url" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="https://www.example.com">
+                </div>
+            </section>
+
+            <!-- Action Buttons -->
+            <div class="p-6 bg-gray-50 flex flex-col sm:flex-row justify-end space-y-3 sm:space-y-0 sm:space-x-4">
+                <button class="px-6 py-2 border border-gray-300 rounded-lg text-gray-700 font-medium hover:bg-gray-100 transition-colors">
+                    Annuler
+                </button>
+                <button class="px-6 py-2 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors">
+                    Publier l'annonce
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Simple script for ad type selection
+        document.querySelectorAll('.border-2.border-gray-200').forEach(item => {
+            item.addEventListener('click', function() {
+                // Remove selection from all
+                document.querySelectorAll('.border-2').forEach(el => {
+                    el.classList.remove('border-blue-500', 'bg-blue-50');
+                    el.classList.add('border-gray-200');
+                });
+                
+                // Add selection to clicked
+                this.classList.remove('border-gray-200');
+                this.classList.add('border-blue-500', 'bg-blue-50');
+            });
+        });
+    </script>
+</body>
+</html>
