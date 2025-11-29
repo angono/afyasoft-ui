@@ -6,151 +6,390 @@
     <title>Créer une Annonce - Songo Beafrika</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
-<body class="bg-gray-50 min-h-screen">
-    <div class="container mx-auto px-4 py-8 max-w-3xl">
-        <!-- Header -->
-        <header class="mb-8">
-            <h1 class="text-3xl font-bold text-gray-800">Créer une Annonce</h1>
-            <p class="text-gray-600 mt-2">Faites connaître votre activité sur Songo Beafrika</p>
-        </header>
+<body class="bg-slate-50 min-h-screen">
 
-        <!-- Main Form -->
-        <div class="bg-white rounded-lg shadow-md overflow-hidden">
-            <!-- Type de Publicité Section -->
-            <section class="p-6 border-b">
-                <h2 class="text-xl font-semibold text-gray-800 mb-4">Type de Publicité</h2>
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-                    <div class="border-2 border-gray-200 rounded-lg p-4 text-center cursor-pointer hover:border-blue-500 transition-colors">
-                        <i class="fas fa-video text-blue-500 text-2xl mb-2"></i>
-                        <p class="font-medium">Publicité Vidéo</p>
-                    </div>
-                    <div class="border-2 border-blue-500 rounded-lg p-4 text-center cursor-pointer bg-blue-50">
-                        <i class="fas fa-image text-blue-500 text-2xl mb-2"></i>
-                        <p class="font-medium">Annonce Visuelle</p>
-                    </div>
-                    <div class="border-2 border-gray-200 rounded-lg p-4 text-center cursor-pointer hover:border-blue-500 transition-colors">
-                        <i class="fas fa-volume-up text-blue-500 text-2xl mb-2"></i>
-                        <p class="font-medium">Spot Audio</p>
-                    </div>
-                    <div class="border-2 border-gray-200 rounded-lg p-4 text-center cursor-pointer hover:border-blue-500 transition-colors">
-                        <i class="fas fa-newspaper text-blue-500 text-2xl mb-2"></i>
-                        <p class="font-medium">Publi-reportage</p>
+<div class="max-w-6xl mx-auto min-h-screen">
+    <div class="w-full space-y-3">
+        <div class="realtive sticky top-0 bg-blue-900 h-36 w-full rounded-b-3xl bg-center cursor-pointer object-cover z-10 shadow-lg">
+            <nav class="p-2 flex flex-grow relative justify-between z-10 items-center mx-auto h-18">
+                <div class="inline relative">
+                    <button type="button" class="inline-flex items-center relative text-gray-300 hover:text-white mr-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" /></svg>    
+                    </button>
+                </div>
+                <div class="inline-flex">
+                    <a href="/">
+                        <div class="text-white text-lg sm:text-xl font-semibold leading-tight">
+                            Afyasoft
+                        </div>
+                    </a>
+                </div>
+                <div class="flex-initial">
+                    <div class="flex justify-end items-center relative">
+                        <div class="inline relative">
+                            <div class="block flex-grow-0 flex-shrink-0 text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 sm:w-8 sm:h-8"><path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" /></svg>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </section>
+            </nav>
+            <div class="px-3 rounded-lg  flex flex-col w-full">
+                <h4 class="text-white text-lg sm:text-xl font-semibold leading-tight truncate">Your trusted health platform.
+                </h4>
+                <div class="flex justify-between items-center ">
+                    <div class="flex flex-col">
+                        <h2 class="text-sm flex items-center text-gray-100 font-normal">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z">
+                                </path>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                            </svg>
+                            Rome, Italy
+                        </h2>
+                    </div>
+                </div>
+            </div>
 
-            <!-- Informations de Base Section -->
-            <section class="p-6 border-b">
-                <h2 class="text-xl font-semibold text-gray-800 mb-4">Informations de Base</h2>
-                
-                <!-- Titre de l'annonce -->
-                <div class="mb-6">
-                    <label class="block text-gray-700 font-medium mb-2">
-                        Titre de l'annonce <span class="text-red-500">*</span>
-                    </label>
-                    <input type="text" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Ex: Restaurant Le Savana - Cuisine locale">
-                </div>
-                
-                <!-- Description -->
-                <div class="mb-6">
-                    <label class="block text-gray-700 font-medium mb-2">
-                        Description <span class="text-red-500">*</span>
-                    </label>
-                    <textarea class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 h-32" placeholder="Décrivez votre activité en détail..."></textarea>
-                </div>
-                
-                <!-- Catégorie et Localisation -->
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-                    <div>
-                        <label class="block text-gray-700 font-medium mb-2">
-                            Catégorie <span class="text-red-500">*</span>
-                        </label>
-                        <select class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
-                            <option value="" disabled selected>Sélectionnez une catégorie</option>
-                            <option value="restaurant">Restaurant</option>
-                            <option value="boutique">Boutique</option>
-                            <option value="service">Service</option>
-                            <option value="autre">Autre</option>
-                        </select>
-                    </div>
-                    <div>
-                        <label class="block text-gray-700 font-medium mb-2">
-                            Localisation <span class="text-red-500">*</span>
-                        </label>
-                        <input type="text" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Ex: Bangui, Centrafrique">
+            <div class="flex items-center justify-between mt-3 px-3 z-10">
+                <div class="relative w-full">
+                    <input type="text" class="bg-purple-white shadow rounded-xl border-0 p-3 w-full"
+                            placeholder="Search somthing...">
+                    <div class="absolute top-0 right-0 p-4 pr-3 text-purple-lighter">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                        </svg>
                     </div>
                 </div>
-            </section>
+            </div>
+        </div>
+        <div class="p-3 space-y-4 z-0">
+            <h4 class="font-semibold mt-2">Category</h4>
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 text-gray-500">
+                <div
+                    class="text-center py-4 bg-blue-50 text-blue-600 rounded-xl shadow hover:shadow-md cursor-pointer transition ease-in duration-300">
+                    <span>🩺</span>
+                    <p class="text-sm mt-1">General</p>
+                </div>
+                <div
+                    class="text-center py-4 bg-blue-50 text-blue-600 rounded-xl shadow hover:shadow-md cursor-pointer transition ease-in duration-300">
+                    <span>📈</span>
+                    <p class="text-sm mt-1">Cardio</p>
+                </div>
 
-            <!-- Média Section -->
-            <section class="p-6 border-b">
-                <h2 class="text-xl font-semibold text-gray-800 mb-4">Média</h2>
-                <div class="border-2 border-dashed border-gray-300 rounded-lg p-8 text-center cursor-pointer hover:border-blue-500 transition-colors">
-                    <i class="fas fa-cloud-upload-alt text-4xl text-gray-400 mb-4"></i>
-                    <p class="font-medium text-gray-700">Cliquez pour télécharger</p>
-                    <p class="text-gray-500 text-sm mt-2">Image JPG, PNG, GIF</p>
+                <div
+                    class="text-center py-4 bg-blue-50 text-blue-600 rounded-xl shadow hover:shadow-md cursor-pointer transition ease-in duration-300">
+                    <span>🦷</span>
+                    <p class="text-sm mt-1">Dentist</p>
                 </div>
-            </section>
+                <div
+                    class="text-center py-4 bg-blue-50 text-blue-600 rounded-xl shadow hover:shadow-md cursor-pointer transition ease-in duration-300">
+                    <span>⚪</span>
+                    <p class="text-sm mt-1">Psychiatrist</p>
+                </div>
+                <div
+                    class="text-center py-4 bg-blue-50 text-blue-600 rounded-xl shadow hover:shadow-md cursor-pointer transition ease-in duration-300">
+                    <span>🦠</span>
+                    <p class="text-sm mt-1">Covid-19</p>
+                </div>
+                <div
+                    class="text-center py-4 bg-blue-50 text-blue-600 rounded-xl shadow hover:shadow-md cursor-pointer transition ease-in duration-300">
+                    <span>💉</span>
+                    <p class="text-sm mt-1">Surgeon</p>
+                </div>
+            </div>
 
-            <!-- Informations de Contact Section -->
-            <section class="p-6">
-                <h2 class="text-xl font-semibold text-gray-800 mb-4">Informations de Contact</h2>
-                
-                <!-- Nom de l'entreprise -->
-                <div class="mb-6">
-                    <label class="block text-gray-700 font-medium mb-2">
-                        Nom de l'entreprise / Particulier <span class="text-red-500">*</span>
-                    </label>
-                    <input type="text" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Ex: Restaurant Le Savana">
-                </div>
-                
-                <!-- Téléphone -->
-                <div class="mb-6">
-                    <label class="block text-gray-700 font-medium mb-2">Téléphone</label>
-                    <input type="tel" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="+236 XX XX XX XX">
-                </div>
-                
-                <!-- Email -->
-                <div class="mb-6">
-                    <label class="block text-gray-700 font-medium mb-2">Email</label>
-                    <input type="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="contact@example.com">
-                </div>
-                
-                <!-- Site Web -->
-                <div class="mb-6">
-                    <label class="block text-gray-700 font-medium mb-2">Site Web (optionnel)</label>
-                    <input type="url" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="https://www.example.com">
-                </div>
-            </section>
+            <h4 class="font-semibold">Recommended Hospitals</h4>
+            <div class="flex items-center gap-3 overflow-x-auto pb-2">
+                <div class="relative w-56 min-w-56 md:w-80 md:min-w-80 h-44 overflow-hidden rounded-lg shadow">
+                    <span class="absolute z-10 top-4 right-4">🤍</span>
 
-            <!-- Action Buttons -->
-            <div class="p-6 bg-gray-50 flex flex-col sm:flex-row justify-end space-y-3 sm:space-y-0 sm:space-x-4">
-                <button class="px-6 py-2 border border-gray-300 rounded-lg text-gray-700 font-medium hover:bg-gray-100 transition-colors">
-                    Annuler
-                </button>
-                <button class="px-6 py-2 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors">
-                    Publier l'annonce
-                </button>
+                    <img src="static/01.jpg" class="w-full h-80 object-cover transform group-hover:scale-105 transition-transform duration-700" loading="lazy">
+
+
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+
+                    <div class="absolute bottom-0 left-0 right-0 p-6">
+                        <div class="flex text-base font-semibold text-white items-center justify-between">
+                            <span>Rome, Italy</span>
+                            <span>4.7/5</span>
+                        </div>
+
+                        <a href="#" class="mt-2 text-sm text-white hover:underline truncate">Lorem ipsum hospital</a>
+                    </div>
+                </div>
+
+                <div class="relative w-56 min-w-56 md:w-80 md:min-w-80 h-44 overflow-hidden rounded-lg shadow">
+                    <span class="absolute z-10 top-4 right-4">🤍</span>
+
+                    <img src="static/02.jpg" class="w-full h-80 object-cover transform group-hover:scale-105 transition-transform duration-700" loading="lazy">
+
+
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+
+                    <div class="absolute bottom-0 left-0 right-0 p-6">
+                        <div class="flex text-base font-semibold text-white items-center justify-between">
+                            <span>Rome, Italy</span>
+                            <span>4.7/5</span>
+                        </div>
+
+                        <a href="#" class="mt-2 text-sm text-white hover:underline truncate">Lorem ipsum hospital</a>
+                    </div>
+                </div>
+
+                <div class="relative w-56 min-w-56 md:w-80 md:min-w-80 h-44 overflow-hidden rounded-lg shadow">
+                    <span class="absolute z-10 top-4 right-4">🤍</span>
+
+                    <img src="static/03.jpg" class="w-full h-80 object-cover transform group-hover:scale-105 transition-transform duration-700" loading="lazy">
+
+
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+
+                    <div class="absolute bottom-0 left-0 right-0 p-6">
+                        <div class="flex text-base font-semibold text-white items-center justify-between">
+                            <span>Rome, Italy</span>
+                            <span>4.7/5</span>
+                        </div>
+
+                        <a href="#" class="mt-2 text-sm text-white hover:underline truncate">Lorem ipsum hospital</a>
+                    </div>
+                </div>
+
+                <div class="relative w-56 min-w-56 md:w-80 md:min-w-80 h-44 overflow-hidden rounded-lg shadow">
+                    <span class="absolute z-10 top-4 right-4">🤍</span>
+
+                    <img src="static/04.jpg" class="w-full h-80 object-cover transform group-hover:scale-105 transition-transform duration-700" loading="lazy">
+
+
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+
+                    <div class="absolute bottom-0 left-0 right-0 p-6">
+                        <div class="flex text-base font-semibold text-white items-center justify-between">
+                            <span>Rome, Italy</span>
+                            <span>4.7/5</span>
+                        </div>
+
+                        <a href="#" class="mt-2 text-sm text-white hover:underline truncate">Lorem ipsum hospital</a>
+                    </div>
+                </div>
+            </div>
+
+            <h4 class="font-semibold">Facilities</h4>
+            <div class="grid grid-cols-1">
+                <div class="space-y-3">
+                    <div class="flex items-center bg-white shadow rounded-xl p-2">
+                        <div class="flex-shrink-0">
+                            <img src="static/01.jpg" alt="image" class="w-16 h-16 object-cover rounded-lg">
+                        </div>
+                      <div class="flex-1 ml-3">
+                        <h3 class="text-base font-semibold">Lorem ipsum hospital</h3>
+                        <p class="text-sm text-gray-400 mb-1">Hospital</p>
+                        <div class="flex justify-between items-center gap-3 text-sm text-gray-500">
+                            <span class="text-blue-500 flex items-center"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 mr-1"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" /><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" /></svg> Rome, Italy</span>
+                            <span class="text-yellow-500">⭐ 4.7</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flex items-center bg-white shadow rounded-xl p-2">
+                        <div class="flex-shrink-0">
+                            <img src="static/02.jpg" alt="image" class="w-16 h-16 object-cover rounded-lg">
+                        </div>
+                      <div class="flex-1 ml-3">
+                        <h3 class="text-base font-semibold">Lorem ipsum hospital</h3>
+                        <p class="text-sm text-gray-400 mb-1">Hospital</p>
+                        <div class="flex justify-between items-center gap-3 text-sm text-gray-500">
+                            <span class="text-blue-500 flex items-center"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 mr-1"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" /><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" /></svg> Rome, Italy</span>
+                            <span class="text-yellow-500">⭐ 4.7</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flex items-center bg-white shadow rounded-xl p-2">
+                        <div class="flex-shrink-0">
+                            <img src="static/03.jpg" alt="image" class="w-16 h-16 object-cover rounded-lg">
+                        </div>
+                      <div class="flex-1 ml-3">
+                        <h3 class="text-base font-semibold">Lorem ipsum hospital</h3>
+                        <p class="text-sm text-gray-400 mb-1">Hospital</p>
+                        <div class="flex justify-between items-center gap-3 text-sm text-gray-500">
+                            <span class="text-blue-500 flex items-center"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 mr-1"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" /><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" /></svg> Rome, Italy</span>
+                            <span class="text-yellow-500">⭐ 4.7</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flex items-center bg-white shadow rounded-xl p-2">
+                        <div class="flex-shrink-0">
+                            <img src="static/04.jpg" alt="image" class="w-16 h-16 object-cover rounded-lg">
+                        </div>
+                      <div class="flex-1 ml-3">
+                        <h3 class="text-base font-semibold">Lorem ipsum hospital</h3>
+                        <p class="text-sm text-gray-400 mb-1">Hospital</p>
+                        <div class="flex justify-between items-center gap-3 text-sm text-gray-500">
+                            <span class="text-blue-500 flex items-center"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 mr-1"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" /><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" /></svg> Rome, Italy</span>
+                            <span class="text-yellow-500">⭐ 4.7</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flex items-center bg-white shadow rounded-xl p-2">
+                        <div class="flex-shrink-0">
+                            <img src="static/05.jpg" alt="image" class="w-16 h-16 object-cover rounded-lg">
+                        </div>
+                      <div class="flex-1 ml-3">
+                        <h3 class="text-base font-semibold">Lorem ipsum hospital</h3>
+                        <p class="text-sm text-gray-400 mb-1">Hospital</p>
+                        <div class="flex justify-between items-center gap-3 text-sm text-gray-500">
+                            <span class="text-blue-500 flex items-center"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 mr-1"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" /><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" /></svg> Rome, Italy</span>
+                            <span class="text-yellow-500">⭐ 4.7</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flex items-center bg-white shadow rounded-xl p-2">
+                        <div class="flex-shrink-0">
+                            <img src="static/06.jpg" alt="image" class="w-16 h-16 object-cover rounded-lg">
+                        </div>
+                      <div class="flex-1 ml-3">
+                        <h3 class="text-base font-semibold">Lorem ipsum hospital</h3>
+                        <p class="text-sm text-gray-400 mb-1">Hospital</p>
+                        <div class="flex justify-between items-center gap-3 text-sm text-gray-500">
+                            <span class="text-blue-500 flex items-center"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 mr-1"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" /><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" /></svg> Rome, Italy</span>
+                            <span class="text-yellow-500">⭐ 4.7</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flex items-center bg-white shadow rounded-xl p-2">
+                        <div class="flex-shrink-0">
+                            <img src="static/07.jpg" alt="image" class="w-16 h-16 object-cover rounded-lg">
+                        </div>
+                      <div class="flex-1 ml-3">
+                        <h3 class="text-base font-semibold">Lorem ipsum hospital</h3>
+                        <p class="text-sm text-gray-400 mb-1">Hospital</p>
+                        <div class="flex justify-between items-center gap-3 text-sm text-gray-500">
+                            <span class="text-blue-500 flex items-center"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 mr-1"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" /><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" /></svg> Rome, Italy</span>
+                            <span class="text-yellow-500">⭐ 4.7</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flex items-center bg-white shadow rounded-xl p-2">
+                        <div class="flex-shrink-0">
+                            <img src="static/08.jpg" alt="image" class="w-16 h-16 object-cover rounded-lg">
+                        </div>
+                      <div class="flex-1 ml-3">
+                        <h3 class="text-base font-semibold">Lorem ipsum hospital</h3>
+                        <p class="text-sm text-gray-400 mb-1">Hospital</p>
+                        <div class="flex justify-between items-center gap-3 text-sm text-gray-500">
+                            <span class="text-blue-500 flex items-center"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 mr-1"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" /><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" /></svg> Rome, Italy</span>
+                            <span class="text-yellow-500">⭐ 4.7</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flex items-center bg-white shadow rounded-xl p-2">
+                        <div class="flex-shrink-0">
+                            <img src="static/09.jpg" alt="image" class="w-16 h-16 object-cover rounded-lg">
+                        </div>
+                      <div class="flex-1 ml-3">
+                        <h3 class="text-base font-semibold">Lorem ipsum hospital</h3>
+                        <p class="text-sm text-gray-400 mb-1">Hospital</p>
+                        <div class="flex justify-between items-center gap-3 text-sm text-gray-500">
+                            <span class="text-blue-500 flex items-center"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 mr-1"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" /><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" /></svg> Rome, Italy</span>
+                            <span class="text-yellow-500">⭐ 4.7</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flex items-center bg-white shadow rounded-xl p-2">
+                        <div class="flex-shrink-0">
+                            <img src="static/10.jpg" alt="image" class="w-16 h-16 object-cover rounded-lg">
+                        </div>
+                      <div class="flex-1 ml-3">
+                        <h3 class="text-base font-semibold">Lorem ipsum hospital</h3>
+                        <p class="text-sm text-gray-400 mb-1">Hospital</p>
+                        <div class="flex justify-between items-center gap-3 text-sm text-gray-500">
+                            <span class="text-blue-500 flex items-center"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 mr-1"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" /><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" /></svg> Rome, Italy</span>
+                            <span class="text-yellow-500">⭐ 4.7</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flex items-center bg-white shadow rounded-xl p-2">
+                        <div class="flex-shrink-0">
+                            <img src="static/11.jpg" alt="image" class="w-16 h-16 object-cover rounded-lg">
+                        </div>
+                      <div class="flex-1 ml-3">
+                        <h3 class="text-base font-semibold">Lorem ipsum hospital</h3>
+                        <p class="text-sm text-gray-400 mb-1">Hospital</p>
+                        <div class="flex justify-between items-center gap-3 text-sm text-gray-500">
+                            <span class="text-blue-500 flex items-center"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 mr-1"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" /><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" /></svg> Rome, Italy</span>
+                            <span class="text-yellow-500">⭐ 4.7</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flex items-center bg-white shadow rounded-xl p-2">
+                        <div class="flex-shrink-0">
+                            <img src="static/12.jpg" alt="image" class="w-16 h-16 object-cover rounded-lg">
+                        </div>
+                      <div class="flex-1 ml-3">
+                        <h3 class="text-base font-semibold">Lorem ipsum hospital</h3>
+                        <p class="text-sm text-gray-400 mb-1">Hospital</p>
+                        <div class="flex justify-between items-center gap-3 text-sm text-gray-500">
+                            <span class="text-blue-500 flex items-center"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 mr-1"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" /><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" /></svg> Rome, Italy</span>
+                            <span class="text-yellow-500">⭐ 4.7</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flex items-center bg-white shadow rounded-xl p-2">
+                        <div class="flex-shrink-0">
+                            <img src="static/13.jpg" alt="image" class="w-16 h-16 object-cover rounded-lg">
+                        </div>
+                      <div class="flex-1 ml-3">
+                        <h3 class="text-base font-semibold">Lorem ipsum hospital</h3>
+                        <p class="text-sm text-gray-400 mb-1">Hospital</p>
+                        <div class="flex justify-between items-center gap-3 text-sm text-gray-500">
+                            <span class="text-blue-500 flex items-center"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 mr-1"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" /><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" /></svg> Rome, Italy</span>
+                            <span class="text-yellow-500">⭐ 4.7</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flex items-center bg-white shadow rounded-xl p-2">
+                        <div class="flex-shrink-0">
+                            <img src="static/14.jpg" alt="image" class="w-16 h-16 object-cover rounded-lg">
+                        </div>
+                      <div class="flex-1 ml-3">
+                        <h3 class="text-base font-semibold">Lorem ipsum hospital</h3>
+                        <p class="text-sm text-gray-400 mb-1">Hospital</p>
+                        <div class="flex justify-between items-center gap-3 text-sm text-gray-500">
+                            <span class="text-blue-500 flex items-center"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 mr-1"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" /><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" /></svg> Rome, Italy</span>
+                            <span class="text-yellow-500">⭐ 4.7</span>
+                        </div>
+                      </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+</div>
 
-    <script>
-        // Simple script for ad type selection
-        document.querySelectorAll('.border-2.border-gray-200').forEach(item => {
-            item.addEventListener('click', function() {
-                // Remove selection from all
-                document.querySelectorAll('.border-2').forEach(el => {
-                    el.classList.remove('border-blue-500', 'bg-blue-50');
-                    el.classList.add('border-gray-200');
-                });
-                
-                // Add selection to clicked
-                this.classList.remove('border-gray-200');
-                this.classList.add('border-blue-500', 'bg-blue-50');
-            });
-        });
-    </script>
+
+<style>
+    /*::-webkit-scrollbar {
+        width: 0;
+    }*/
+
+    ::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 0px rgba(0, 0, 0, 0.3);
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: transparent;
+        outline: 1px solid transparent;
+    }
+</style>
+
+
 </body>
 </html>
